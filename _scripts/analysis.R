@@ -42,7 +42,7 @@ pop.sd <- function(df1, df2){
 #### load data #### 
 
 # read raw data
-data_directory <- ("./_data/S1 Raw Data.xlsx")
+data_directory <- ("./_data/S2 Raw Data.xlsx")
 rawdata <- as.data.frame(read_xlsx(data_directory, col_names = T))
 
 # adapt data types
